@@ -12,7 +12,6 @@ function App() {
   return (
     <Router>
       <div>
-        <Header />
         
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
