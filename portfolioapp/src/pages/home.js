@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import Project from "../components/Project";
 import projectData from "../projects.json";
 import Cards from "../components/Project";
-import { useState} from 'react';
+import { useState } from 'react';
 
 const Home = () => {
 
@@ -36,9 +36,11 @@ const Home = () => {
             <Header />
             <div className="container">
                 <div className="row">
-                    <div className="col-sm-8">
-                        <Project />
-                        {renderProjectCards()}
+                    <div class="card-deck">
+                        <div class="card">
+                            <Project />
+                            {renderProjectCards()}
+                        </div>
                     </div>
 
                 </div>

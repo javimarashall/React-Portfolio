@@ -5,7 +5,8 @@ const Cards = ({ data }) => {
     return (
         <>
             {
-                data ? (<div className="card">
+                data ? (<div class="card-deck">
+                <div className="card">
                 <img src={data.image} className="card-img-top" alt="Project Photo" />
                 <div className="card-body">
                     <Link to={`/project/`} >
@@ -20,6 +21,7 @@ const Cards = ({ data }) => {
                 <div className="card-body">
                     <a href={data.deployLink} className="card-link">Deploy Link</a>
                     <a href="#" className="card-link">{data.repoLink}</a>
+                </div>
                 </div>
             </div>) : null
             }
