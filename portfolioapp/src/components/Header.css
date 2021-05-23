@@ -1,0 +1,13 @@
+.jumbotron {
+    background-image: url("https://i.imgur.com/qx0qa7K.jpg");
+    background-size: cover;
+    color: white;
+    font-family:'Bree Serif';
+  }
+  .navbar {
+      background-color: rgb(0, 0, 0);
+     
+  }
+  .nav-link {
+    color: white;
+  }

@@ -25,9 +25,6 @@ const Project = () => {
             </div>
             <Footer />
         </div>
-
-
-
     )
 }
 export default Project;
