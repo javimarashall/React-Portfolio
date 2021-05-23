@@ -34,7 +34,4 @@ const Cards = ({ data }) => {
 export default Cards;
 
 
-//pass data to project component
-
-//router nest - swtich pagest - pass the data via - history push
 

@@ -12,12 +12,8 @@ const Header = () => {
         <hr className="my-4" />
         <br />
         <br />
-        <br />
-        
-         
-       
+        <br />       
       </div>
-
       <nav className="navbar navbar-expand-lg">
 
         <div className="navbar-nav float-right">

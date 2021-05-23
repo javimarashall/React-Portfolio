@@ -16,7 +16,7 @@ function App() {
                 <Route exact path="/project" component={Project}>
                     <Project />
                 </Route>
-                <Footer />
+               
             </div>
         </Router>
     );
