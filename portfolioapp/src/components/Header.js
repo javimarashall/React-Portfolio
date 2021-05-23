@@ -17,10 +17,10 @@ const Header = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link active" href="#">Home <span className="sr-only">(current)</span></a>
-            <a className="nav-link" href="#">Features</a>
-            <a className="nav-link" href="#">Pricing</a>
-            <a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Disabled</a>
+            <a className="nav-link active" href="/home">Home <span className="sr-only">(current)</span></a>
+            <a className="nav-link" href="/project">Projects</a>
+            <a className="nav-link" href="#">Resume</a>
+            
           </div>
         </div>
       </nav>

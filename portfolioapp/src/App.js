@@ -11,9 +11,9 @@ function App() {
         <Router>
             <div>
 
-                <Route exact path="/" component={Home} />
+                <Route exact path="/" component={Project} />
                 <Route exact path="/home" component={Home} />
-                <Route exact path="/project">
+                <Route exact path="/project" component={Project}>
                     <Project />
                 </Route>
                 <Footer />
