@@ -1,4 +1,4 @@
-.project-card {
+.card {
     background: #fff;
     border-radius: 10px;
     
@@ -9,14 +9,14 @@
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     padding: .1rem;
     transition: transform .2s;
-    width: 600px;
-    height: 500px;
+    width: 800px;
+    height: 700px;
     margin: 10px;
     margin-left: 40px;
 
   }
 img {
-    height: 300px;
+    height: 500px;
     width: 200px;
     
     text-align: center;
@@ -29,15 +29,3 @@ img {
     -webkit-transform: scale(1.); 
     transform: scale(1.05); 
   }
-.card-deck {  
-  background: black;
-  height: 80%;
-  display: inline-block;
-  flex-flow: row wrap;
-  padding: 20px;
-  justify-content: space-evenly;
-  overflow: auto;
-  margin:10px;
-  margin-left: 10px;
-  font-family: "Bree Serif";
-}

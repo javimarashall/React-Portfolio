@@ -11,7 +11,7 @@ const Cards = ({ data }) => {
                 <img src={data.image} className="card-img-top" alt="Project Photo" />
                 <div className="card-body mx-auto">
                     
-                        <h5 className="card-title">{data.projectName}</h5>
+                        <h3 className="card-title">{data.projectName}</h3>
                     
                    
                 </div>
@@ -19,9 +19,9 @@ const Cards = ({ data }) => {
                     <li className="list-group-item">{data.description}</li>
                    
                 </ul>
-                <div className="card-body">
+                <div className="card-body text-center">
                     <a href={data.deployLink} className="card-link">Deploy Link</a>
-                    <a href="#" className="card-link">{data.repoLink}</a>
+                    <a href={data.repoLink} className="card-link">Repository Link</a>
                 </div>
                 </div>
             </div>) : null

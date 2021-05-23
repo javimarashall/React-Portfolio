@@ -4,8 +4,8 @@ import { useState } from "react";
 const Footer = () => {
 
 return (
-    <nav className="navbar fixed-bottom navbar-light bg-light">
-        <a className="navbar-brand" href="#">Fixed bottom</a>
+    <nav className="navbar navbar-light bg-light">
+        <a className="navbar-brand" href="#"></a>
     </nav>
 )
 }
