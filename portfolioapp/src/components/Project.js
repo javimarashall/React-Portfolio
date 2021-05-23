@@ -6,7 +6,7 @@ const Cards = ({ data }) => {
         <>
             {
                 data ? (<div className="card">
-                <img src="..." className="card-img-top" alt="..." />
+                <img src={data.image} className="card-img-top" alt="Project Photo" />
                 <div className="card-body">
                     <Link to={`/project/`} >
                         <h5 className="card-title">{data.projectName}</h5>
@@ -15,11 +15,10 @@ const Cards = ({ data }) => {
                 </div>
                 <ul className="list-group list-group-flush">
                     <li className="list-group-item">{data.description}</li>
-                    <li className="list-group-item">A second item</li>
-                    <li className="list-group-item">A third item</li>
+                   
                 </ul>
                 <div className="card-body">
-                    <a href="#" className="card-link">{data.deployLink}</a>
+                    <a href={data.deployLink} className="card-link">Deploy Link</a>
                     <a href="#" className="card-link">{data.repoLink}</a>
                 </div>
             </div>) : null

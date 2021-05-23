@@ -12,7 +12,7 @@ const Project = () => {
             Hello!!!!!
             <div className="container">
                 <div className="card">
-                    <img src="..." className="card-img-top" alt="..." />
+                    <img src="https://i.imgur.com/vXxKVdX.jpg" className="card-img-top" alt="My Photo" />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
