@@ -30,7 +30,7 @@ img {
     transform: scale(1.05); 
   }
 .card-deck {  
-  background: black;
+  background: rgb(2, 10, 80);
   height: 80%;
   display: inline-block;
   flex-flow: row wrap;

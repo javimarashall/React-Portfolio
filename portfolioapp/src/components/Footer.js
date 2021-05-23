@@ -1,12 +1,13 @@
 import React from "react";
 import { useState } from "react";
+import "./Footer.css"
 
 const Footer = () => {
 
 return (
-    <nav className="navbar navbar-light bg-light">
-        <a className="navbar-brand" href="#"></a>
-    </nav>
+    <div class="card-footer">
+       
+    </div>
 )
 }
 
