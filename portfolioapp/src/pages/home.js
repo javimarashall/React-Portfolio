@@ -34,18 +34,17 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <div className="container">
-                <div className="row">
-                    <div class="card-deck">
-                        <div class="card">
-                            <Project />
-                            {renderProjectCards()}
-                        </div>
-                    </div>
+            <div className="container-fluid justify-content-center ml-5">
 
-                </div>
+                <Project />
 
+                {renderProjectCards()}
             </div>
+
+
+
+
+
             <Footer />
         </div>
     )

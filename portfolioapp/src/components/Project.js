@@ -1,18 +1,19 @@
 import {Link} from 'react-router-dom'
+import "./Project.css"
 
 const Cards = ({ data }) => {
 
     return (
         <>
             {
-                data ? (<div class="card-deck">
-                <div className="card">
+                data ? (<div class="card-deck justify-content-center ml-5">
+                <div className="card project-card">
                 <img src={data.image} className="card-img-top" alt="Project Photo" />
-                <div className="card-body">
-                    <Link to={`/project/`} >
+                <div className="card-body mx-auto">
+                    
                         <h5 className="card-title">{data.projectName}</h5>
-                    </Link>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    
+                   
                 </div>
                 <ul className="list-group list-group-flush">
                     <li className="list-group-item">{data.description}</li>

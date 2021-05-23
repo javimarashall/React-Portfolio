@@ -9,7 +9,7 @@ const Project = () => {
     return (
         <div>
             <Header />
-            Hello!!!!!
+           
             <div className="container">
                 <div className="card">
                     <img src="https://i.imgur.com/vXxKVdX.jpg" className="card-img-top" alt="My Photo" />
