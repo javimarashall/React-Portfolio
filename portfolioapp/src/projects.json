@@ -32,13 +32,13 @@
         "image": "https://i.imgur.com/pYxPpzi.png",
         "repoLink": "https://github.com/javimarashall/Daily-Planner",
         "deployLink": "https://javimarashall.github.io/Daily-Planner/",
-        "description": ""
+        "description": "Daily Planner is an application that helps users schedule events throughout the day."
     },
     {
         "projectName": "Weather Dashboard",
         "image": "https://i.imgur.com/nAr5Alu.png",
         "repoLink": "https://github.com/javimarashall/Weather-Dashboard",
         "deployLink": "https://javimarashall.github.io/Weather-Dashboard/",
-        "description": ""
+        "description": "This is an application that pulls weather data for any given city in the world."
     }
 ]

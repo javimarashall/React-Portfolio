@@ -9,14 +9,14 @@
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     padding: .1rem;
     transition: transform .2s;
-    width: 800px;
-    height: 700px;
+    width: 600px;
+    height: 500px;
     margin: 10px;
     margin-left: 40px;
 
   }
 img {
-    height: 500px;
+    height: 300px;
     width: 200px;
     
     text-align: center;
