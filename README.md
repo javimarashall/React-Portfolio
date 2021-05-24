@@ -37,7 +37,7 @@ function App() {
 https://github.com/javimarashall/React-Portfolio
 
 ## Deploy Link
-at https://javimarashall.github.io/React-Portfolio/
+https://javimarashall.github.io/React-Portfolio/
 
 ## Personal Links
 [Github](https://github.com/javimarashall)<br>
