@@ -1,6 +1,6 @@
 {
   "name": "portfolioapp",
-  "homepage": "https://javimarashall.github.io/React-Portfolio/",
+  "homepage": "https://javimarashall.github.io/React-Portfolio/home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
