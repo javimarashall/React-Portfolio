@@ -1,10 +1,6 @@
 .project-card {
     background: #fff;
     border-radius: 10px;
-    
-    
-  
-    
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     padding: .1rem;
     transition: transform .2s;
