@@ -5,7 +5,7 @@ import "./Footer.css"
 const Footer = () => {
 
 return (
-    <div class="card-footer text-center">
+    <div className="card-footer text-center">
        <h3>Thank you for visiting my portfolio!!</h3>
     </div>
 )
