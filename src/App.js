@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-//import { HashRouter as Router, Switch, Route } from "react-router-dom"
+//import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom"
 import Home from "./pages/home";
 import Project from "./pages/projects";
 // import Header from "./components/Header";
@@ -9,13 +9,13 @@ import Project from "./pages/projects";
 
 function App() {
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router basename="/">
             <Switch>
 
-               {/* <Route exact path="/" component={Project} /> */}
+               <Route exact path="/" component={Project} />
                 <Route exact path="/home" component={Home} />
                 <Route exact path="/project" component={Project}/>
-                    
+                <Route component={Project}/>     
                
             </Switch>
         </Router>
