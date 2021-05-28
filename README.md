@@ -42,4 +42,3 @@ https://javimarashall.github.io/React-Portfolio/
 ## Personal Links
 [Github](https://github.com/javimarashall)<br>
 [Linkedin](https://www.linkedin.com/in/javier-mondragon-7b471719b/)
-

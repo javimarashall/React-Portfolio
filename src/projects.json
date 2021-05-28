@@ -40,5 +40,12 @@
         "repoLink": "https://github.com/javimarashall/Weather-Dashboard",
         "deployLink": "https://javimarashall.github.io/Weather-Dashboard/",
         "description": "This is an application that pulls weather data for any given city in the world."
+    },
+    {
+        "projectName": "Google Book Search",
+        "image": "https://i.imgur.com/1ET4PkG.png",
+        "repoLink": "https://github.com/markkhoo/Practice-MERN-App",
+        "deployLink": "https://fathomless-coast-53268.herokuapp.com/",
+        "description": "Google Book Search is an application that allows user to search for any given book in the Google book database."
     }
 ]
