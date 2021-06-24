@@ -1,21 +1,18 @@
 import React from "react";
-//import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { HashRouter as Router, Switch, Route } from "react-router-dom"
 import Home from "./pages/home";
-import Project from "./pages/projects";
-// import Header from "./components/Header";
-// import Footer from "./components/Footer";
-// import Card from "./components/Project";
+import Projects from "./pages/projects";
+import './app.css';
 
 function App() {
     return (
         <Router basename="/">
             <Switch>
 
-               <Route exact path="/" component={Project} />
+               <Route exact path="/" component={Home} />
                 <Route exact path="/home" component={Home} />
-                <Route exact path="/project" component={Project}/>
-                <Route component={Project}/>     
+                <Route exact path="/projects" component={Projects}/>
+                <Route component={Projects}/>     
                
             </Switch>
         </Router>

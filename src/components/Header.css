@@ -1,12 +1,12 @@
-.jumbotron {
-    background-image: url("https://i.imgur.com/qx0qa7K.jpg");
+/* .jumbotron {
+    background-image: url("./assets/matrix.jpg");
     background-size: cover;
+    height: 0%;
     color: white;
-    font-family:'Bree Serif';
-    
-  }
+    font-family:'Bree Serif'; 
+  } */
   .navbar {
-      background-color: rgb(46, 106, 197);
+      background-color: rgb(57, 59, 61);
      
   }
   .nav-link {
