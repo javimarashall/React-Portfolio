@@ -29,9 +29,10 @@ const Projects = () => {
     return (
         <div>
             <Header />
+
             <div className="container-fluid justify-content-center ml-5">
                 <Project />
-                {renderProjectCards()}
+                {renderProjectCards()}     
             </div>
             <Footer />
         </div>
