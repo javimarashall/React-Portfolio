@@ -2,9 +2,9 @@
     {
         "projectName": "Contextual Twit",
         "image": "https://i.imgur.com/69eUa0O.gif",
-        "repoLink": "https://github.com/TMPeeler/Project-2",
-        "deployLink": "https://upforbeerreview.herokuapp.com/",
-        "description": "Up for beer review is an interactive application where users can review existing beers or users can also create new beers and review them."
+        "repoLink": "https://github.com/markkhoo/Contextual-Twit",
+        "deployLink": "https://tranquil-castle-82838.herokuapp.com/",
+        "description": "Contextual Twit is an interactive application where users can search twitter for a hashtag and the application will do sentiment analysis on what was searched."
     },
     {
         "projectName": "Up For Beer Review",
