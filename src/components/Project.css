@@ -1,23 +1,18 @@
 .project-card {
-    background: #fff;
+    
     border-radius: 10px;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     padding: .1rem;
     transition: transform .2s;
-    width: 50px;
+    width: 500px;
     height: 200px;
     margin: 10px;
-    
-
   }
-img {
+/* img {
     height: 50px;
-    width: 200px;
-    
-    text-align: center;
-    background:#6CADDC;
-    border-radius: 10px;
-  }
+    width: 200px;    
+    text-align: center;   
+  } */
   
   .card:hover {
     -ms-transform: scale(1.); 
@@ -25,14 +20,28 @@ img {
     transform: scale(1.05); 
   }
 .card-deck {  
-  background: rgb(2, 10, 80);
-  height: 80%;
+ 
+  
   display: inline-flex;
   flex-flow: row wrap;
-  padding: 20px;
+  padding: 10px;
   justify-content: space-evenly;
-  overflow: auto;
+  /* overflow: auto; */
   margin:10px;
   
   font-family: "Bree Serif";
+}
+
+
+@media screen and (max-width: 414px) {
+  .project-card {
+    
+    border-radius: 10px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    padding: .1rem;
+    transition: transform .2s;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+  }
 }

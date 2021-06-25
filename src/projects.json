@@ -1,5 +1,12 @@
 [
     {
+        "projectName": "Contextual Twit",
+        "image": "https://i.imgur.com/69eUa0O.gif",
+        "repoLink": "https://github.com/TMPeeler/Project-2",
+        "deployLink": "https://upforbeerreview.herokuapp.com/",
+        "description": "Up for beer review is an interactive application where users can review existing beers or users can also create new beers and review them."
+    },
+    {
         "projectName": "Up For Beer Review",
         "image": "https://i.imgur.com/RzOGItY.gif",
         "repoLink": "https://github.com/TMPeeler/Project-2",
@@ -18,7 +25,7 @@
         "image": "https://i.imgur.com/hL8hrvt.gif",
         "repoLink": "https://github.com/javimarashall/Note-Taker",
         "deployLink": "https://peaceful-earth-70189.herokuapp.com/",
-        "description": "Note taker is an application where users are able enter notes, save, and delete notes"
+        "description": "Note taker is an application that helps users write notes with a title and text. The application also allows users to save and delete notes. "
     },
     {
         "projectName": "Password Generator",
@@ -32,14 +39,14 @@
         "image": "https://i.imgur.com/pYxPpzi.png",
         "repoLink": "https://github.com/javimarashall/Daily-Planner",
         "deployLink": "https://javimarashall.github.io/Daily-Planner/",
-        "description": "Daily Planner is an application that helps users schedule events throughout the day."
+        "description": "Daily Planner is an application that helps users schedule events throughout the day. The application turns future time blocks green and passed ones grey."
     },
     {
         "projectName": "Weather Dashboard",
         "image": "https://i.imgur.com/nAr5Alu.png",
         "repoLink": "https://github.com/javimarashall/Weather-Dashboard",
         "deployLink": "https://javimarashall.github.io/Weather-Dashboard/",
-        "description": "This is an application that pulls weather data for any given city in the world."
+        "description": "This is an application that pulls weather data for any given city in the world. The application also displays a 5 day forecast."
     },
     {
         "projectName": "Google Book Search",

@@ -1,0 +1,32 @@
+.card-top {
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    color: lightskyblue;
+}
+.container {
+    color: lightskyblue;
+    text-align: center;
+}
+.card-title {
+    text-align: center;
+    margin-top: 50px;
+}
+.nav-link {
+    display: inline;
+    margin: 5px;
+   align-items: center;
+}
+.title {
+    font-size: 70px;
+}
+.card-text {
+    font-size: 20px;
+}
+.title, .card-title, .card-text{
+    font-family: "Bree Serif";
+  }
