@@ -5,7 +5,7 @@ import Project from "../components/Project";
 import projectData from "../projects.json";
 import Cards from "../components/Project";
 import { useState } from 'react';
-import './project.css';
+import './projects.css';
 
 const Projects = () => {
     const [data, setData] = useState(projectData);

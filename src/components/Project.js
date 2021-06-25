@@ -15,7 +15,7 @@ const Cards = ({ data }) => {
                     
                    
                 </div>
-                <ul className="list-group list-group-flush">
+                <ul className="list-group ">
                     <li className="list-group-item">{data.description}</li>
                    
                 </ul>
