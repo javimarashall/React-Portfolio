@@ -51,7 +51,7 @@
     {
         "projectName": "Google Book Search",
         "image": "https://i.imgur.com/1ET4PkG.png",
-        "repoLink": "https://github.com/markkhoo/Practice-MERN-App",
+        "repoLink": "https://github.com/javimarashall/21-Book-Search",
         "deployLink": "https://fathomless-coast-53268.herokuapp.com/",
         "description": "Google Book Search is an application that allows user to search for any given book in the Google book database."
     }
