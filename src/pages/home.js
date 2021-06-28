@@ -14,7 +14,7 @@ const Home = () => {
                 <h1 className="title">Javier Mondragon</h1>
 
                 <img src='https://i.imgur.com/vUXR2NJ.png' className="card-top" alt="Javier" />
-                <p className="card-text">I am a Full Stack Web Developer looking for my next challenge. I am 35 years old and currently live in Tracy, CA. I enjoy working on on interesting projects and building interactive websites! Please, don't hesitate to checkout my projects or contact me with any questions.</p>
+                <p className="card-text">I am a Full Stack Web Developer looking for my next challenge. I am 35 years old and currently live in Tracy, CA. I enjoy working on interesting projects and building interactive websites! Please, don't hesitate to checkout my projects or contact me with any questions.</p>
             
                 <a href="https://drive.google.com/file/d/1k1TfwaF6IadlMj14RFL4sppZqR8y0KOL/view?usp=sharing" className="nav-link text-light" download><i className="far fa-file"></i></a>
                 <a className="nav-link" href="https://www.linkedin.com/in/javier-mondragon-7b471719b/"><i className="fa fa-linkedin"></i></a>
