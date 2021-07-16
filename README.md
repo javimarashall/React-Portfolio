@@ -11,7 +11,7 @@ This software application contains my portfolio powered by React. This applicati
 * Git - Used to upload to to github
 * GitHub - Used to store the repository
 
-![site](./assets/site.gif)
+![site](./assets/site.png)
 
 ## Code Snippet
 This code snippet is included because it's the new way I learned to do routes for a site with multiple pages. This is pretty cool, it feel like it makes building routes easier, for now.  
