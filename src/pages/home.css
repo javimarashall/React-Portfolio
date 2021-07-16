@@ -5,11 +5,10 @@
     display:block;
     margin-left: auto;
     margin-right: auto;
-   
-    color: lightskyblue;
+    border-radius: 1000px;
 }
 .container {
-    color: lightskyblue;
+    color: rgb(187, 218, 243);
     text-align: center;
 }
 .card-title {
@@ -27,6 +26,6 @@
 .card-text {
     font-size: 20px;
 }
-.title, .card-title, .card-text{
+.title, .card-title, .card-text, h2 {
     font-family: "Bree Serif";
   }

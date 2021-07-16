@@ -9,9 +9,9 @@ const Cards = ({ data }) => {
                 data ? (<div class="card-deck justify-content-center ml-5">
                 <div className="card project-card">
                 <img src={data.image} className="card-img-top" alt="Project-Photo" />
-                <div className="card-body mx-auto">
+                <div className="card-body">
                     
-                        <h3 className="card-title">{data.projectName}</h3>
+                        <h4 className="card-title">{data.projectName}</h4>
                     
                    
                 </div>
